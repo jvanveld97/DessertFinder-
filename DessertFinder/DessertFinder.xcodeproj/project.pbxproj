@@ -13,6 +13,7 @@
 		150ECBBC2C46D89000F65D0E /* DessertFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150ECBBB2C46D89000F65D0E /* DessertFinderUITests.swift */; };
 		150ECBBE2C46D89000F65D0E /* DessertFinderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150ECBBD2C46D89000F65D0E /* DessertFinderUITestsLaunchTests.swift */; };
 		15F5EB132C46E99B008E548D /* DessertModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F5EB122C46E99B008E548D /* DessertModel.swift */; };
+		15F5EB172C47036A008E548D /* DessertViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F5EB162C47036A008E548D /* DessertViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		150ECBBB2C46D89000F65D0E /* DessertFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertFinderUITests.swift; sourceTree = "<group>"; };
 		150ECBBD2C46D89000F65D0E /* DessertFinderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertFinderUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		15F5EB122C46E99B008E548D /* DessertModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertModel.swift; sourceTree = "<group>"; };
+		15F5EB162C47036A008E548D /* DessertViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				15F5EB122C46E99B008E548D /* DessertModel.swift */,
+				15F5EB162C47036A008E548D /* DessertViewModel.swift */,
 				150ECBA32C46D89000F65D0E /* Assets.xcassets */,
 				150ECBA52C46D89000F65D0E /* DessertFinder.entitlements */,
 				150ECBA62C46D89000F65D0E /* Preview Content */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				15F5EB132C46E99B008E548D /* DessertModel.swift in Sources */,
+				15F5EB172C47036A008E548D /* DessertViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
