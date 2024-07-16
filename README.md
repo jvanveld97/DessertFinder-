@@ -1,2 +1,2 @@
-# DessertFinder-
+# DessertFinder by Jordan VanVeldhuisen
 
