@@ -22,6 +22,7 @@ struct MealDetail: Decodable {
     let ingredients: [String]
     let measurements: [String]
     
+    // Define the JSON keys used in the API response
     enum CodingKeys: String, CodingKey {
         case idMeal, strMeal, strInstructions
         case strIngredient1, strIngredient2, strIngredient3, strIngredient4, strIngredient5
@@ -34,12 +35,14 @@ struct MealDetail: Decodable {
         case strMeasure16, strMeasure17, strMeasure18, strMeasure19, strMeasure20
     }
     
+    // Initialize a MealDetail object from JSON data
     init(from decoder: Decoder) throws {
-        let container = try decoder.container(keyedBy: CodingKeys.self)
-        idMeal = try container.decode(String.self, forKey: .idMeal)
-        strMeal = try container.decode(String.self, forKey: .strMeal)
-        strInstructions = try container.decode(String.self, forKey: .strInstructions)
+        let container = try decoder.container(keyedBy: CodingKeys.self)// Create a container to access JSON data
+        idMeal = try container.decode(String.self, forKey: .idMeal)// Decode the idMeal property
+        strMeal = try container.decode(String.self, forKey: .strMeal)// Decode the strMeal property
+        strInstructions = try container.decode(String.self, forKey: .strInstructions)// Decode the strInstructions property
         
+        // Decode ingredients and measurements from JSON, and remove any empty values
         ingredients = (1...20).compactMap { index in
             return try? container.decodeIfPresent(String.self, forKey: CodingKeys(rawValue: "strIngredient\(index)")!)
         }.filter { !$0.isEmpty }
