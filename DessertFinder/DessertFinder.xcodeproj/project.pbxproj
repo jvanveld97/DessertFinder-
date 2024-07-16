@@ -15,6 +15,7 @@
 		15F5EB132C46E99B008E548D /* DessertModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F5EB122C46E99B008E548D /* DessertModel.swift */; };
 		15F5EB172C47036A008E548D /* DessertViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F5EB162C47036A008E548D /* DessertViewModel.swift */; };
 		15F5EB192C4704E5008E548D /* DessertViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F5EB182C4704E5008E548D /* DessertViews.swift */; };
+		15F5EB1B2C470604008E548D /* DessertApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F5EB1A2C470604008E548D /* DessertApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		15F5EB122C46E99B008E548D /* DessertModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertModel.swift; sourceTree = "<group>"; };
 		15F5EB162C47036A008E548D /* DessertViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertViewModel.swift; sourceTree = "<group>"; };
 		15F5EB182C4704E5008E548D /* DessertViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertViews.swift; sourceTree = "<group>"; };
+		15F5EB1A2C470604008E548D /* DessertApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		150ECB9C2C46D88E00F65D0E /* DessertFinder */ = {
 			isa = PBXGroup;
 			children = (
+				15F5EB1A2C470604008E548D /* DessertApp.swift */,
 				15F5EB122C46E99B008E548D /* DessertModel.swift */,
 				15F5EB162C47036A008E548D /* DessertViewModel.swift */,
 				15F5EB182C4704E5008E548D /* DessertViews.swift */,
@@ -264,6 +267,7 @@
 			files = (
 				15F5EB132C46E99B008E548D /* DessertModel.swift in Sources */,
 				15F5EB192C4704E5008E548D /* DessertViews.swift in Sources */,
+				15F5EB1B2C470604008E548D /* DessertApp.swift in Sources */,
 				15F5EB172C47036A008E548D /* DessertViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
